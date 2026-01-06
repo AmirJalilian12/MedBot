@@ -63,7 +63,7 @@ namespace MedBot.Controllers
             {
                 await _bot.SendMessage(
                     chatId: message.Chat.Id,
-                    text: "👋 سلام!\nبه MedBot خوش اومدی.\nفعلاً فقط دستور /start فعاله 😄",
+                    text: "this is a test for check",
                     replyMarkup: GenerateMainKeyboard(),
                     cancellationToken: ct
                 );
