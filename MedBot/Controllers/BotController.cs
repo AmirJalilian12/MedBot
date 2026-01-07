@@ -32,7 +32,7 @@ namespace MedBot.Controllers
     };
 
             await _bot.SetWebhook(
-                url: "https://medcoding.ir/bot/update",
+                url: "https://medcoding.ir/httodocs/bot/update",
                 allowedUpdates: allowedUpdates,
                 dropPendingUpdates: true
             );
